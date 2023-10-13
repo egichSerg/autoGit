@@ -9,7 +9,7 @@ curl https://raw.githubusercontent.com/egichSerg/autoGit/main/autogitreboot.sh -
 curl https://raw.githubusercontent.com/egichSerg/autoGit/main/cat.sh -o cat.sh && chmod +x cat.sh
 
 #install lolcat
-sudo apt install lolcat
+sudo apt update && sudo apt install lolcat
 
 #add them to .bashrc
 cd ..
