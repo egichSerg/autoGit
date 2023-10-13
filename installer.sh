@@ -8,6 +8,9 @@ curl https://raw.githubusercontent.com/egichSerg/autoGit/main/autogit.sh -o auto
 curl https://raw.githubusercontent.com/egichSerg/autoGit/main/autogitreboot.sh -o autogitreboot.sh && chmod +x autogitreboot.sh
 curl https://raw.githubusercontent.com/egichSerg/autoGit/main/cat.sh -o cat.sh && chmod +x cat.sh
 
+#install lolcat
+sudo apt install lolcat
+
 #add them to .bashrc
 cd ..
 echo "#autogit" >> .bashrc
