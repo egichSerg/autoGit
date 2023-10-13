@@ -13,7 +13,7 @@ sudo apt update && sudo apt install curl
 ```
 Потом сами команды (then you can install commands)
 ```
-curl https://raw.githubusercontent.com/egichSerg/autoGit/main/installer.sh -o ~/installer.sh && chmod ~/installer.sh && ~/installer.sh && rm -f ~/installer.sh
+curl https://raw.githubusercontent.com/egichSerg/autoGit/main/installer.sh -o ~/installer.sh && chmod +x ~/installer.sh && ~/installer.sh && rm -f ~/installer.sh
 ```
 
 # configure
